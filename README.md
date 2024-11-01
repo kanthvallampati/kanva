@@ -56,6 +56,12 @@ By Route: Load a partial based on the current URL. Set the route attribute on th
 
 This will load the child1.tpl or child2.tpl partial based on the last segment of the URL.
 
+## Contributing
 
+We welcome contributions! If you'd like to contribute to kanva.js, please fork the repository and submit a pull request. For larger changes, consider opening an issue to discuss your ideas first.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
