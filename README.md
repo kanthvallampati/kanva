@@ -41,14 +41,14 @@ Your HTML should contain a <code><template-hook></code> element, which can be co
 
 You can use kanva.js in two ways depending on your needs:
 
-By Name: Load a specific partial by setting the name attribute on the <template-hook>.
+*By Name:* Load a specific partial by setting the name attribute on the <template-hook>.
 ```
     <template-hook name="child1"></template-hook>
 ```
 
 This will load the child1.tpl partial.
 
-By Route: Load a partial based on the current URL. Set the route attribute on the <template-hook>.
+*By Route:* Load a partial based on the current URL. Set the route attribute on the <template-hook>.
 
 ```
     <template-hook route></template-hook>
