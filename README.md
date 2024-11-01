@@ -26,7 +26,7 @@ Your HTML should contain a `<template-hook>` element, which can be configured to
 <template-hook name="child1"></template-hook>
 ```
 
-This will load the child1.tpl partial.
+This will load the `child1.tpl` partial.
 
 *By Route:* Load a partial based on the current URL. Set the route attribute on the <template-hook>.
 
@@ -34,7 +34,7 @@ This will load the child1.tpl partial.
 <template-hook route></template-hook>
 ```
 
-This will load the child1.tpl or child2.tpl partial based on the last segment of the URL.
+This will load the `child1.tpl` or `child2.tpl` partial based on the last segment of the URL.
 
 ### Example
 ```
