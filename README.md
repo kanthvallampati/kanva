@@ -36,3 +36,29 @@ Your HTML should contain a <code><template-hook></code> element, which can be co
 </body>
 </html>
 </pre>
+
+## Usage
+
+You can use kanva.js in two ways depending on your needs:
+
+By Name: Load a specific partial by setting the name attribute on the <template-hook>.
+
+<pre>
+    <template-hook name="child1"></template-hook>    
+</pre>
+
+This will load the child1.tpl partial.
+
+By Route: Load a partial based on the current URL. Set the route attribute on the <template-hook>.
+
+html
+
+<pre>
+    <template-hook route></template-hook>
+</pre>
+
+This will load the child1.tpl or child2.tpl partial based on the last segment of the URL.
+
+
+
+
