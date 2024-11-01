@@ -58,7 +58,7 @@ This will load the child1.tpl or child2.tpl partial based on the last segment of
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute to kanva.js, please fork the repository and submit a pull request. For larger changes, consider opening an issue to discuss your ideas first.
+I welcome contributions! To get involved, please fork the repository and submit a pull request. For significant changes, consider opening an issue first to discuss your ideas.
 
 ## License
 
