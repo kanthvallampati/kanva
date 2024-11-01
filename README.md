@@ -22,19 +22,21 @@ Your HTML should contain a <code><template-hook></code> element, which can be co
 
 ### Example
 <pre>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kanva.js Example</title>
-    <script src="path/to/kanva.js" defer></script>
-</head>
-<body>
-    <template-hook name="child1"></template-hook>
-    <template-hook route></template-hook>
-</body>
-</html>
+    <code>
+        <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>kanva.js Example</title>
+                <script src="path/to/kanva.js" defer></script>
+            </head>
+            <body>
+                <template-hook name="child1"></template-hook>
+                <template-hook route></template-hook>
+            </body>
+            </html>    
+    </code>
 </pre>
 
 ## Usage
