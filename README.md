@@ -17,8 +17,24 @@ You can include `kanva.js` in your project by downloading the file or linking to
 ```
 Ensure that your HTML structure includes a <template-hook> element where the content will be dynamically loaded.
 
-## HTML Structure
-Your HTML should contain a <code><template-hook></code> element, which can be configured to load different partials based on attributes.
+## Usage
+
+Your HTML should contain a `<template-hook>` element, which can be configured to load different partials based on attributes. You can use `kanva.js` in two ways depending on your needs:
+
+*By Name:* Load a specific partial by setting the name attribute on the <template-hook>.
+```
+<template-hook name="child1"></template-hook>
+```
+
+This will load the child1.tpl partial.
+
+*By Route:* Load a partial based on the current URL. Set the route attribute on the <template-hook>.
+
+```
+<template-hook route></template-hook>
+```
+
+This will load the child1.tpl or child2.tpl partial based on the last segment of the URL.
 
 ### Example
 ```
@@ -36,25 +52,6 @@ Your HTML should contain a <code><template-hook></code> element, which can be co
 </body>
 </html>    
 ```
-
-## Usage
-
-You can use kanva.js in two ways depending on your needs:
-
-*By Name:* Load a specific partial by setting the name attribute on the <template-hook>.
-```
-    <template-hook name="child1"></template-hook>
-```
-
-This will load the child1.tpl partial.
-
-*By Route:* Load a partial based on the current URL. Set the route attribute on the <template-hook>.
-
-```
-    <template-hook route></template-hook>
-```
-
-This will load the child1.tpl or child2.tpl partial based on the last segment of the URL.
 
 ## Contributing
 
