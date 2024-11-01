@@ -11,55 +11,48 @@ kanva.js is a lightweight JavaScript library designed to simplify the process of
 
 ## Installation
 
-You can include kanva.js in your project by downloading the file or linking to it via a CDN.
-<pre>
+You can include `kanva.js` in your project by downloading the file or linking to it via a CDN.
+```
 <script src="path/to/kanva.js"></script>
-</pre>
+```
 Ensure that your HTML structure includes a <template-hook> element where the content will be dynamically loaded.
 
 ## HTML Structure
 Your HTML should contain a <code><template-hook></code> element, which can be configured to load different partials based on attributes.
 
 ### Example
-<pre>
-    <code>
-        <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>kanva.js Example</title>
-                <script src="path/to/kanva.js" defer></script>
-            </head>
-            <body>
-                <template-hook name="child1"></template-hook>
-                <template-hook route></template-hook>
-            </body>
-            </html>    
-    </code>
-</pre>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kanva.js Example</title>
+    <script src="path/to/kanva.js" defer></script>
+</head>
+<body>
+    <template-hook name="child1"></template-hook>
+    <template-hook route></template-hook>
+</body>
+</html>    
+```
 
 ## Usage
 
 You can use kanva.js in two ways depending on your needs:
 
 By Name: Load a specific partial by setting the name attribute on the <template-hook>.
-
-<pre>
-    <code>
-        <template-hook name="child1"></template-hook>
-    </code>
-</pre>
+```
+    <template-hook name="child1"></template-hook>
+```
 
 This will load the child1.tpl partial.
 
 By Route: Load a partial based on the current URL. Set the route attribute on the <template-hook>.
 
-<pre>
-    <code>
-        <template-hook route></template-hook>
-    </code>
-</pre>
+```
+    <template-hook route></template-hook>
+```
 
 This will load the child1.tpl or child2.tpl partial based on the last segment of the URL.
 
