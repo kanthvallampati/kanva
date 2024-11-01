@@ -3,20 +3,19 @@
 ## Overview
 
 kanva.js is a lightweight JavaScript library designed to simplify the process of loading and rendering HTML partials within your web applications. It provides an easy way to manage and include reusable components, improving maintainability and modularity.
-Features
 
-    Dynamic loading of HTML partials based on URL or custom attributes.
-    Easy integration with existing projects.
-    Lightweight and fast, without dependencies.
+## Features
+- Dynamic loading of HTML partials based on URL or custom attributes.
+- Easy integration with existing projects.
+- Lightweight and fast, without dependencies.
 
 ## Getting Started
 ### Installation
 
 You can include kanva.js in your project by downloading the file or linking to it via a CDN.
-
-html
-
+<pre>
 <script src="path/to/kanva.js"></script>
+</pre>
 
 Folder Structure
 
